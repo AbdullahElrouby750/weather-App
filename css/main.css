@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+.search-field{
+    position: relative;
+}
+.row > div{
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px hsl(0, 0%, 50%);
+
+}
+
+.other-days{
+    width: 49%;
+}
+
+#options{
+    position: absolute;
+    width: 98.1%;
+    top: 100%;
+
+}
+
+.option{
+    transition: background 0.2s ease-in-out; 
+}
+
+.option:hover{
+    background-color: hsl(0, 0%, 50%);
+}
+
+.option:active{
+    background-color: hsl(0, 0%, 80%);
+}

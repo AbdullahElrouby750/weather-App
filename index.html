@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather App</title>
+
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+    </head>
+    <body>
+        <header class="text-center fst-italic">
+            <h1>Check Your Weather</h1>
+        </header>
+
+        <section>
+            <div class="search-field my-5 p-2">
+                <input
+                    type="text"
+                    id="searchIP"
+                    class="form-control border-0"
+                    placeholder="Search by city/country/state name . . ." />
+                    <div id="options" class=" bg-light border rounded-2 d-none"></div>
+            </div>
+
+            <div id="days" class="row justify-content-between p-3 ">
+                <div
+                    id="day1"
+                    class="p-5 my-3 w-100 d-flex flex-column align-items-center"></div>
+                <div
+                    id="day2"
+                    class="p-3 other-days col-6 d-flex flex-column align-items-center"></div>
+                <div
+                    id="day3"
+                    class="p-3 other-days col-6 d-flex flex-column align-items-center"></div>
+            </div>
+        </section>
+
+        <script src="./js/bootstrap.bundle.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
